@@ -1,5 +1,7 @@
 package jenkins.plugins.slack;
 
+import hudson.model.TaskListener;
+
 public class StandardSlackServiceStub extends StandardSlackService {
 
     private HttpClientStub httpClientStub;
